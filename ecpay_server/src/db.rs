@@ -1,5 +1,6 @@
 use async_trait::async_trait;
 use bb8::{ManageConnection, Pool};
+use chrono::{NaiveDate, NaiveDateTime};
 use dotenv::dotenv; // 引入 dotenv 用來讀取 .env 文件
 use mysql_async::prelude::*; // 引入 Queryable trait
 use mysql_async::{Conn, Opts};
@@ -56,4 +57,14 @@ pub async fn init_db_pool() -> Pool<MySqlConnectionManager> {
 
     // 建立 bb8 連線池
     Pool::builder().max_size(15).build(manager).await.unwrap()
+}
+
+// 將 Option<String> 轉換為 Option<NaiveDateTime>
+pub fn parse_datetime(datetime_str: Option<String>) -> Option<NaiveDateTime> {
+    datetime_str.and_then(|d| NaiveDateTime::parse_from_str(&d, "%Y-%m-%d %H:%M:%S").ok())
+}
+
+// 將 Option<String> 轉換為 Option<NaiveDate>
+pub fn parse_date(date_str: Option<String>) -> Option<NaiveDate> {
+    date_str.and_then(|d| NaiveDate::parse_from_str(&d, "%Y-%m-%d").ok())
 }

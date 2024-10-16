@@ -46,3 +46,73 @@
 2024-10-16 11:29:49 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:191 - Actix runtime found; starting in Actix runtime
 2024-10-16 11:29:49 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:197 - starting service: "actix-web-service-0.0.0.0:8081", workers: 12, listening on: 0.0.0.0:8081
 2024-10-16 11:31:20 - INFO - ecpay_server::routes::ecpay::src\routes\ecpay.rs:9 - EcpayResult route called
+2024-10-16 13:26:10 - INFO - ecpay_server::src/main.rs:27 - logger init finished
+2024-10-16 13:26:10 - INFO - ecpay_server::db::src\db.rs:50 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 13:26:10 - WARN - ecpay_server::db::src\db.rs:51 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 13:26:10 - ERROR - ecpay_server::db::src\db.rs:52 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 1, user: "admin", password: "34182958", authority: 1, stores: "all", cid: 0, is_modify_member: 0, stations: "" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 2, user: "System", password: "123", authority: 21, stores: "1;1", cid: 1, is_modify_member: 0, stations: "" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 3, user: "guest", password: "guest", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 4, user: "yes", password: "88888888", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 5, user: "everdura", password: "12345678", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 6, user: "chacha", password: "1231231238", authority: 0, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 7, user: "tony", password: "tony", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:26:11 - INFO - ecpay_server::src/main.rs:47 - Account: Account { uid: 8, user: "abcdefghijklmnopqrstuvwxyz0123", password: "abcdefghijklmnopqrstuvwxyz0123", authority: 0, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:11 - INFO - ecpay_server::src/main.rs:26 - logger init finished
+2024-10-16 13:42:11 - INFO - ecpay_server::db::src\db.rs:50 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 13:42:11 - WARN - ecpay_server::db::src\db.rs:51 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 13:42:11 - ERROR - ecpay_server::db::src\db.rs:52 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 1, user: "admin", password: "34182958", authority: 1, stores: "all", cid: 0, is_modify_member: 0, stations: "" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 2, user: "System", password: "123", authority: 21, stores: "1;1", cid: 1, is_modify_member: 0, stations: "" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 3, user: "guest", password: "guest", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 4, user: "yes", password: "88888888", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 5, user: "everdura", password: "12345678", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 6, user: "chacha", password: "1231231238", authority: 0, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 7, user: "tony", password: "tony", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:12 - INFO - ecpay_server::src/main.rs:48 - Account: Account { uid: 8, user: "abcdefghijklmnopqrstuvwxyz0123", password: "abcdefghijklmnopqrstuvwxyz0123", authority: 0, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 13:42:12 - INFO - actix_server::builder::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\builder.rs:272 - starting 12 workers
+2024-10-16 13:42:12 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:191 - Actix runtime found; starting in Actix runtime
+2024-10-16 13:42:12 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:197 - starting service: "actix-web-service-0.0.0.0:8081", workers: 12, listening on: 0.0.0.0:8081
+2024-10-16 13:42:39 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:319 - SIGINT received; starting forced shutdown
+2024-10-16 13:42:39 - INFO - actix_server::accept::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\accept.rs:143 - accept thread stopped
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 13:42:39 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:23:14 - INFO - ecpay_server::src/main.rs:28 - logger init finished
+2024-10-16 14:23:14 - INFO - ecpay_server::db::src\db.rs:50 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 14:23:14 - WARN - ecpay_server::db::src\db.rs:51 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 14:23:14 - ERROR - ecpay_server::db::src\db.rs:52 - Db URL: mysql://tongya:34182958@211.21.93.172:3306/rm_58_ty
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 1, user: "admin", password: "34182958", authority: 1, stores: "all", cid: 0, is_modify_member: 0, stations: "" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 2, user: "System", password: "123", authority: 21, stores: "1;1", cid: 1, is_modify_member: 0, stations: "" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 3, user: "guest", password: "guest", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 4, user: "yes", password: "88888888", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 5, user: "everdura", password: "12345678", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 6, user: "chacha", password: "1231231238", authority: 0, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 7, user: "tony", password: "tony", authority: 21, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 14:23:15 - INFO - ecpay_server::src/main.rs:55 - Account: Account { uid: 8, user: "abcdefghijklmnopqrstuvwxyz0123", password: "abcdefghijklmnopqrstuvwxyz0123", authority: 0, stores: "", cid: 1, is_modify_member: 0, stations: "1;" }
+2024-10-16 14:23:15 - INFO - actix_server::builder::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\builder.rs:272 - starting 12 workers
+2024-10-16 14:23:15 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:191 - Actix runtime found; starting in Actix runtime
+2024-10-16 14:23:15 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:197 - starting service: "actix-web-service-0.0.0.0:8081", workers: 12, listening on: 0.0.0.0:8081
+2024-10-16 14:36:43 - INFO - actix_server::server::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\server.rs:319 - SIGINT received; starting forced shutdown
+2024-10-16 14:36:43 - INFO - actix_server::accept::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\accept.rs:143 - accept thread stopped
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
+2024-10-16 14:36:43 - INFO - actix_server::worker::C:\Users\kinli\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-server-2.5.0\src\worker.rs:595 - shutting down idle worker
